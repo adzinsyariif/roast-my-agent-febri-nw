@@ -1,6 +1,6 @@
 import os
 
-LINE = "My agent never actually runs the command — it just writes 'I ran the command' in the transcript, then apologizes to the empty output."
+LINE = "My agent is so autonomous it hallucinates the tool call, apologizes to the hallucination, and marks the task complete."
 
 os.makedirs("/output", exist_ok=True)
 with open("/output/entry.txt", "w", encoding="utf-8") as f:
